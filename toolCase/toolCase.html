@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+
+  <title>toolCase</title>
+  <link type="text/css" rel="stylesheet" href="toolCase.css"/>
+  <link rel="icon" href="" type="image/x-icon">
+
+</head>
+
+<body>
+<textarea id="inputA" placeholder="源字符串"></textarea>
+<textarea type="text" id="inputB" placeholder="设值模板" rows="3"></textarea>
+<div>
+  <button type="button" id="setIntoLower">每行字母转小写</button>
+
+  <button type="button" id="setIntoUpper">每行字母转大写</button>
+  <button type="button" id="setIntoUpperCase">每行首字母转大写</button>
+  <button type="button" id="setIntoLowerCase">每行首字母转小写</button>
+
+  <button type="button" id="entitySet">按模板设值</button>
+</div>
+<textarea id="outputA" disabled placeholder="目的字符串"></textarea>
+</body>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="toolCase.js"></script>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+
+  <title>toolCase</title>
+  <link type="text/css" rel="stylesheet" href="toolCase.css"/>
+  <link rel="icon" href="" type="image/x-icon">
+
+</head>
+
+<body>
+<textarea type="text" id="template" placeholder="设值模板"></textarea>
+
+  <select id="inputCount" name="inputCount">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>
+
+<!--<button type="button" id="generateInput">按模板生成值输入框</button>-->
+
+<div class="input_container" id="input_container">
+<!--  <textarea class="input_item"></textarea>-->
+</div>
+<div>
+  <button type="button" id="setIntoUpperCase">每行首字母转大写</button>
+  <button type="button" id="setIntoLowerCase">每行首字母转小写</button>
+
+  <button type="button" id="entitySet">按模板设值</button>
+</div>
+<textarea id="outputA" disabled placeholder="设值结果输出"></textarea>
+</body>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="toolCase.js"></script>
+</html>

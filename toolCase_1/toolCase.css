@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+textarea {
+    width: 90%;
+    height: 300px;
+}
+input {
+    width: 90%;
+}
+
+.input_container {
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 310px;
+}
+.input_item {
+    width: auto;
+}
