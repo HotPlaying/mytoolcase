@@ -183,3 +183,4 @@ function matchPhone(phone) {
   var isValid = !!phone.match(regex);
   console.log('matchPhone[%s]=%o', phone, isValid.valueOf());
 }
+

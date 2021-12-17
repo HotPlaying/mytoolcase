@@ -20,7 +20,7 @@ $("#setIntoUpper").on("click", function (e) {
   var output = '';
   lineList.forEach((item) => {
     if (item !== "" && item) {
-      output += item.toUpperCase()+ "\n";
+      output += item.toUpperCase() + "\n";
     }
   })
   $("#inputA").val(output);
@@ -34,7 +34,7 @@ $("#setIntoLower").on("click", function (e) {
   var output = '';
   lineList.forEach((item) => {
     if (item !== "" && item) {
-      output += item.toLowerCase()+ "\n";
+      output += item.toLowerCase() + "\n";
     }
   })
   $("#inputA").val(output);

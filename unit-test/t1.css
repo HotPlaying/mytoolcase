@@ -1,0 +1,33 @@
+.codeimg {
+    /*flex: 1 1 auto;*/
+    flex: 0 0 auto;
+    transition: transform 500ms cubic-bezier(0.25,0.1,0.25,1);
+    -webkit-transition: -webkit-transform 500ms cubic-bezier(0.25,0.1,0.25,1);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog_container {
+    width: 320px;
+    height: 240px;
+    border: solid black ;
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    line-height: 240px;
+    -webkit-animation: helloAnimation 1500ms;
+}
+@keyframes helloAnimation
+{
+    from {background: red;}
+    to {background: white;}
+}
+
+body .dialog_container.codeimg ul li.ccc
+
